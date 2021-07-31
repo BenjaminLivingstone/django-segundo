@@ -106,15 +106,13 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Chile/Continental'#'UTC'
 
 USE_I18N = True
 
 USE_L10N = True
 
 USE_TZ = True
-
-# Chances are that if you use setting USE_TZ = True and are using timezone.now().date(), what you really want is timezone.localdate() otherwise you get the date for the UTC timezone.
 
 
 # Static files (CSS, JavaScript, Images)

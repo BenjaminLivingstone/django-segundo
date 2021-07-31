@@ -3,27 +3,23 @@
     padding: 0px;
     /* outline: 1px dotted red; */
     vertical-align: top;
-    color: white;
-    background: rgb(63, 124, 251);
-    background: radial-gradient(circle, rgba(63, 124, 251, 1) 0%, rgba(205, 252, 70, 1) 100%);
+    color: blue;
+    background: white
 }
 
-#title {
-    /* background-color: gray; */
-    height: 100%;
-    margin: 10px;
-    padding: 20px;
-    text-align: center;
-    /* width: 50%; */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #132dd9;
+    padding: 10px;
 }
 
-#time {
-    /* background-color: gray; */
-    height: 100%;
-    margin: 10px;
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.374);
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
     padding: 20px;
+    font-size: 30px;
     text-align: center;
-    /* width: 50%; */
 }
 
 
