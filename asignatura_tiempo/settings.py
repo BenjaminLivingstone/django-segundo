@@ -114,6 +114,8 @@ USE_L10N = True
 
 USE_TZ = True
 
+# Chances are that if you use setting USE_TZ = True and are using timezone.now().date(), what you really want is timezone.localdate() otherwise you get the date for the UTC timezone.
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
